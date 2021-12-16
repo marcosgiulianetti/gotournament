@@ -1,0 +1,65 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .left-contenta{
+    position: absolute;
+    margin-left: 280px;
+  }
+
+  @media screen and (min-width: 400px){
+    .game-card{
+      position: relative;
+      display: block;
+      height: 100vh;
+      float: left;
+      width: 50%;
+      /*
+      width: 39.1vw;
+      */
+    }
+  }
+
+  .lol-bg{
+    background-image: url(../images/league-of-legends.jpg);
+    background-size: contain;
+    background-position: center;
+    border: 0 10px 0 0 solid #fff;
+  }
+
+  .cs-bg{
+    background-image: url(../images/csgo.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+
+  .game-card-text{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color:rgba(13, 110, 253, 0.4);
+  }
+
+  .write{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .write-s{
+    margin-left: 20px;
+    margin-top: -5px;
+    color: rgba(204, 204, 204, 0.808);
+  }
